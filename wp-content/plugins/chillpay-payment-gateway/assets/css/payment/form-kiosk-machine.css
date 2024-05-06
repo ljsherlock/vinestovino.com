@@ -1,0 +1,50 @@
+.wc_payment_method #chillpay-form-kiosk-machine input[type="radio"] + label::before {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+#chillpay-form-kiosk-machine { }
+#chillpay-form-kiosk-machine li.item {
+	border-bottom: 1px solid #eee;
+	padding: 12px 0 12px;
+	position: relative;
+}
+
+#chillpay-form-kiosk-machine li > input {
+	position: absolute;
+	top: 26px;
+	left: 14px;
+}
+
+#chillpay-form-kiosk-machine li > label {
+	padding-left: 36px;
+	cursor: pointer;
+	position: relative;
+}
+
+#chillpay-form-kiosk-machine .chillpay-form-kiosk-machine-label-box {
+	/*display: inline-block;*/
+}
+
+#chillpay-form-kiosk-machine .chillpay-form-kiosk-machine-logo-box {
+	display: inline-block;
+	padding: 5px;
+	margin: 0 10px;
+	border-radius: 2px;
+	vertical-align: top;
+	margin-top: 4px;
+}
+
+#chillpay-form-kiosk-machine .chillpay-form-kiosk-machine-logo-box img {
+	width: 38px !important;
+ 	height: auto !important;
+ 	max-height: initial !important;
+}
+
+#chillpay-form-kiosk-machine .secondary-text {
+	color: #aaa;
+	font-size: 80%;
+}
+
+

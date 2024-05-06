@@ -1,0 +1,82 @@
+08:33:46 - Start List of Activate Plugins
+08:33:46 - admin-menu-editor/menu-editor.php
+08:33:46 - bp-custom-order-status-for-woocommerce/main.php
+08:33:46 - chillpay-payment-gateway/chillpay-woocommerce.php
+08:33:46 - code-snippets/code-snippets.php
+08:33:46 - cost-of-goods-for-woocommerce/cost-of-goods-for-woocommerce.php
+08:33:46 - elementor-pro/elementor-pro.php
+08:33:46 - elementor/elementor.php
+08:33:46 - google-website-translator/google-website-translator.php
+08:33:46 - independent-analytics/iawp.php
+08:33:46 - login-as-user/login-as-user.php
+08:33:46 - mailjet-for-wordpress/wp-mailjet.php
+08:33:46 - manage-notification-emails/manage-notification-emails.php
+08:33:46 - miniorange-login-openid/miniorange_openid_sso_settings.php
+08:33:46 - registration-password/fs-registration-password.php
+08:33:46 - white-label-cms/wlcms-plugin.php
+08:33:46 - woo-cart-abandonment-recovery/woo-cart-abandonment-recovery.php
+08:33:46 - woocommerce-conditional-discount-rules-for-checkout-premium/woo-conditional-discount-rules-for-checkout.php
+08:33:46 - woocommerce-pdf-invoices-packing-slips/woocommerce-pdf-invoices-packingslips.php
+08:33:46 - woocommerce/woocommerce.php
+08:33:46 - wordpress-seo/wp-seo.php
+08:33:46 - wp-mail-smtp/wp_mail_smtp.php
+08:33:46 - wpforms-lite/wpforms.php
+08:33:46 - yith-woocommerce-wishlist/init.php
+08:33:46 - End List of Activate Plugins
+08:34:18 - init connection url = https://app.oliverpos.com/api/v1/Account/InitConnection/?sourceUrl=https://vinestovino.net&clientGuid=&clientToken=82e3420d628ba272557fc07c7fb7cafb&version=2.4.2.2
+08:34:18 - Not occur wp_error
+08:34:18 - oliver_pos_subscription_client_id = 00000000-0000-0000-0000-000000000000
+08:34:18 - oliver_pos_subscription_token = 00000000-0000-0000-0000-000000000000
+08:34:18 - oliver_pos_subscription_udid = 0
+08:34:18 - trigger_update_version_number = https://app.oliverpos.com/api/WCBridge/ChangeBridgeVersion/?clientId=00000000-0000-0000-0000-000000000000&version=2.4.2.2
+08:34:18 - trigger_bridge_details = https://app.oliverpos.com/api/WCBridge/TriggerBridgeDetail/?clientId=00000000-0000-0000-0000-000000000000
+08:37:48 - init connection url = https://app.oliverpos.com/api/v1/Account/InitConnection/?sourceUrl=https://vinestovino.net&clientGuid=00000000-0000-0000-0000-000000000000&clientToken=82e3420d628ba272557fc07c7fb7cafb&version=2.4.2.2
+08:37:48 - Not occur wp_error
+08:37:48 - oliver_pos_subscription_client_id = 00000000-0000-0000-0000-000000000000
+08:37:48 - oliver_pos_subscription_token = 00000000-0000-0000-0000-000000000000
+08:37:48 - oliver_pos_subscription_udid = 0
+08:37:48 - trigger_bridge_details = https://app.oliverpos.com/api/WCBridge/TriggerBridgeDetail/?clientId=00000000-0000-0000-0000-000000000000
+08:37:58 - connect with key:sub_1P3weYFEFc9T4WKrxyndLAuJ error: {"Message":"cURL error 28: Operation timed out after 5001 milliseconds with 0 bytes received"}
+08:38:31 - init connection url = https://app.oliverpos.com/api/v1/Account/InitConnection/?sourceUrl=https://vinestovino.net&clientGuid=00000000-0000-0000-0000-000000000000&clientToken=82e3420d628ba272557fc07c7fb7cafb&version=2.4.2.2
+08:38:31 - Not occur wp_error
+08:38:31 - oliver_pos_subscription_autologin_token = Yga5I922mfXMrM5wY6Yl1o9cmIiTeDt2J7J+XJckpUHaf7ulG46BzY0Y60krwHeIIcF4aXbRnqAFskfNkyLAdUYIgxwVGfcJybK4H6X0bZg=
+08:38:31 - oliver_pos_subscription_client_id = 798e0429-d60a-455a-9919-cfb1d5802a0f
+08:38:31 - oliver_pos_subscription_token = bda578ad-99d3-4327-9a43-7dbb2ccd95e4
+08:38:31 - oliver_pos_subscription_udid = 5407918009
+08:38:31 - trigger_bridge_details = https://app.oliverpos.com/api/WCBridge/TriggerBridgeDetail/?clientId=798e0429-d60a-455a-9919-cfb1d5802a0f
+08:38:37 - Something went wrong: {"Message":"cURL error 28: Operation timed out after 5002 milliseconds with 0 bytes received"}
+08:42:29 - init connection url = https://app.oliverpos.com/api/v1/Account/InitConnection/?sourceUrl=https://vinestovino.net&clientGuid=798e0429-d60a-455a-9919-cfb1d5802a0f&clientToken=82e3420d628ba272557fc07c7fb7cafb&version=2.4.2.2
+08:42:29 - Not occur wp_error
+08:42:29 - oliver_pos_subscription_autologin_token = Yga5I922mfXMrM5wY6Yl1o9cmIiTeDt2J7J+XJckpUHaf7ulG46BzY0Y60krwHeIIcF4aXbRnqAFskfNkyLAdUYIgxwVGfcJybK4H6X0bZg=
+08:42:29 - oliver_pos_subscription_client_id = 798e0429-d60a-455a-9919-cfb1d5802a0f
+08:42:29 - oliver_pos_subscription_token = bda578ad-99d3-4327-9a43-7dbb2ccd95e4
+08:42:29 - oliver_pos_subscription_udid = 5407918009
+08:42:29 - trigger_bridge_details = https://app.oliverpos.com/api/WCBridge/TriggerBridgeDetail/?clientId=798e0429-d60a-455a-9919-cfb1d5802a0f
+08:42:36 - Something went wrong: {"Message":"cURL error 28: Operation timed out after 5001 milliseconds with 0 bytes received"}
+23:06:44 - Start List of Activate Plugins
+23:06:44 - admin-menu-editor/menu-editor.php
+23:06:44 - bp-custom-order-status-for-woocommerce/main.php
+23:06:44 - chillpay-payment-gateway/chillpay-woocommerce.php
+23:06:44 - code-snippets/code-snippets.php
+23:06:44 - cost-of-goods-for-woocommerce/cost-of-goods-for-woocommerce.php
+23:06:44 - elementor-pro/elementor-pro.php
+23:06:44 - elementor/elementor.php
+23:06:44 - google-website-translator/google-website-translator.php
+23:06:44 - independent-analytics/iawp.php
+23:06:44 - login-as-user/login-as-user.php
+23:06:44 - mailjet-for-wordpress/wp-mailjet.php
+23:06:44 - manage-notification-emails/manage-notification-emails.php
+23:06:44 - miniorange-login-openid/miniorange_openid_sso_settings.php
+23:06:44 - oliver-pos/oliver-pos.php
+23:06:44 - registration-password/fs-registration-password.php
+23:06:44 - white-label-cms/wlcms-plugin.php
+23:06:44 - woo-cart-abandonment-recovery/woo-cart-abandonment-recovery.php
+23:06:44 - woocommerce-conditional-discount-rules-for-checkout-premium/woo-conditional-discount-rules-for-checkout.php
+23:06:44 - woocommerce-pdf-invoices-packing-slips/woocommerce-pdf-invoices-packingslips.php
+23:06:44 - woocommerce/woocommerce.php
+23:06:44 - wordpress-seo/wp-seo.php
+23:06:44 - wp-mail-smtp/wp_mail_smtp.php
+23:06:44 - wpforms-lite/wpforms.php
+23:06:44 - yith-woocommerce-wishlist/init.php
+23:06:44 - End List of Activate Plugins
+23:06:45 - trigger_update_version_number = https://app.oliverpos.com/api/WCBridge/ChangeBridgeVersion/?clientId=798e0429-d60a-455a-9919-cfb1d5802a0f&version=2.4.2.2

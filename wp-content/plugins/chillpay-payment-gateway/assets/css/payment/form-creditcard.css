@@ -1,0 +1,54 @@
+.wc_payment_method #chillpay-form-creditcard input[type="radio"] + label::before {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+#chillpay-form-creditcard { }
+#chillpay-form-creditcard li.item {
+	border-bottom: 1px solid #eee;
+	padding: 12px 0 12px;
+	position: relative;
+}
+
+#chillpay-form-creditcard li > input {
+	position: absolute;
+	top: 26px;
+	left: 14px;
+}
+
+#chillpay-form-creditcard li > label {
+	padding-left: 36px;
+	cursor: pointer;
+	position: relative;
+}
+
+#chillpay-form-creditcard .chillpay-form-creditcard-label-box {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+#chillpay-form-creditcard .chillpay-form-creditcard-logo-box {
+	display: inline-block;
+	padding: 5px;
+	margin: 0 10px;
+	border-radius: 2px;
+	vertical-align: top;
+	margin-top: 4px;
+}
+
+#chillpay-form-creditcard .chillpay-form-creditcard-logo-box img {
+	width: 38px !important;
+ 	height: auto !important;
+ 	max-height: initial !important;
+}
+
+#chillpay-form-creditcard .secondary-text {
+	color: #aaa;
+	font-size: 80%;
+}
+
+.hidden {
+	display: none;
+  }
+

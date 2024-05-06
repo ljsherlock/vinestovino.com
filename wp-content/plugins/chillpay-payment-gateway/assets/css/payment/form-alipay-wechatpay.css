@@ -1,0 +1,54 @@
+.wc_payment_method #chillpay-form-alipay-wechatpay input[type="radio"] + label::before {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+#chillpay-form-alipay-wechatpay { }
+#chillpay-form-alipay-wechatpay li.item {
+	border-bottom: 1px solid #eee;
+	padding: 12px 0 12px;
+	position: relative;
+}
+
+#chillpay-form-alipay-wechatpay li > input {
+	position: absolute;
+	top: 26px;
+	left: 14px;
+}
+
+#chillpay-form-alipay-wechatpay li > label {
+	padding-left: 36px;
+	cursor: pointer;
+	position: relative;
+}
+
+#chillpay-form-alipay-wechatpay .chillpay-form-alipay-wechatpay-label-box {
+	display: inline-block;
+}
+
+#chillpay-form-alipay-wechatpay .chillpay-form-alipay-wechatpay-logo-box {
+	display: inline-block;
+	padding: 5px;
+	margin: 0 10px;
+	border-radius: 2px;
+	vertical-align: top;
+	margin-top: 4px;
+}
+
+#chillpay-form-alipay-wechatpay .chillpay-form-alipay-wechatpay-logo-box img {
+	width: 38px !important;
+ 	height: auto !important;
+ 	max-height: initial !important;
+}
+
+#chillpay-form-alipay-wechatpay .secondary-text {
+	color: #aaa;
+	font-size: 80%;
+}
+
+.hidden {
+	display: none;
+}
+
+

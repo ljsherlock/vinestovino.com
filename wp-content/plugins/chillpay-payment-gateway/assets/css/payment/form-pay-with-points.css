@@ -1,0 +1,50 @@
+.wc_payment_method #chillpay-form-pay-with-points input[type="radio"] + label::before {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+#chillpay-form-pay-with-points { }
+#chillpay-form-pay-with-points li.item {
+	border-bottom: 1px solid #eee;
+	padding: 12px 0 12px;
+	position: relative;
+}
+
+#chillpay-form-pay-with-points li > input {
+	position: absolute;
+	top: 26px;
+	left: 14px;
+}
+
+#chillpay-form-pay-with-points li > label {
+	padding-left: 36px;
+	cursor: pointer;
+	position: relative;
+}
+
+#chillpay-form-pay-with-points .chillpay-form-pay-with-points-label-box {
+	/*display: inline-block;*/
+}
+
+#chillpay-form-pay-with-points .chillpay-form-pay-with-points-logo-box {
+	display: inline-block;
+	padding: 5px;
+	margin: 0 10px;
+	border-radius: 2px;
+	vertical-align: top;
+	margin-top: 4px;
+}
+
+#chillpay-form-pay-with-points .chillpay-form-pay-with-points-logo-box img {
+	width: 38px !important;
+ 	height: auto !important;
+ 	max-height: initial !important;
+}
+
+#chillpay-form-pay-with-points .secondary-text {
+	color: #aaa;
+	font-size: 80%;
+}
+
+

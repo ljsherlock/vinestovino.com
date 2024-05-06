@@ -1,0 +1,276 @@
+01:25:57 - Start create user trigger
+01:25:59 - Stop create user trigger
+03:26:22 - === === ===
+03:26:22 - Start oliver_pos_update_customer trigger
+03:26:24 - Stop oliver_pos_update_customer trigger
+03:26:24 - New order trigger
+03:26:24 - order update difference time=1713410784
+03:26:24 - try post
+03:26:24 - Update order trigger4048
+03:26:24 - order update difference time=0
+03:26:24 - Update order trigger4048
+03:26:24 - order update difference time=0
+03:26:24 - Update order trigger4048
+03:26:24 - order update difference time=0
+03:26:24 - reduce stock from default
+03:26:25 - unhook_oliver_order_emails_admin = 4048
+03:26:25 - unhook_oliver_order_emails_admin = 4048
+03:26:25 - Update order trigger4048
+03:26:25 - order update difference time=1
+10:26:27 - change order status
+03:26:29 - update order trigger delay
+03:28:13 - Update order trigger4043
+03:28:13 - order update difference time=1713410893
+03:28:13 - try post
+03:28:13 - change order status
+03:28:18 - update order trigger delay
+03:31:51 - Update order trigger4048
+03:31:51 - order update difference time=1713411111
+03:31:51 - try post
+03:31:51 - change order status
+03:41:33 - === === ===
+03:41:33 - Start oliver_pos_update_customer trigger
+03:41:33 - Stop oliver_pos_update_customer trigger
+03:41:33 - New order trigger
+03:41:33 - order update difference time=1713411693
+03:41:33 - try post
+03:41:33 - Update order trigger4049
+03:41:33 - order update difference time=0
+03:41:33 - Update order trigger4049
+03:41:33 - order update difference time=0
+03:41:34 - Update order trigger4049
+03:41:34 - order update difference time=1
+03:41:34 - reduce stock from default
+03:41:34 - unhook_oliver_order_emails_admin = 4049
+03:41:34 - unhook_oliver_order_emails_admin = 4049
+10:41:35 - change order status
+10:41:36 - reduce stock from default
+03:41:39 - update order trigger delay
+03:43:38 - Start create user trigger
+03:43:38 - Stop create user trigger
+03:47:20 - === === ===
+03:47:20 - Start oliver_pos_update_customer trigger
+03:47:21 - Stop oliver_pos_update_customer trigger
+03:47:21 - New order trigger
+03:47:21 - order update difference time=1713412041
+03:47:21 - try post
+03:47:21 - Update order trigger4050
+03:47:21 - order update difference time=0
+03:47:21 - Update order trigger4050
+03:47:21 - order update difference time=0
+03:47:21 - Update order trigger4050
+03:47:21 - order update difference time=0
+03:47:21 - reduce stock from default
+03:47:21 - unhook_oliver_order_emails_admin = 4050
+03:47:21 - unhook_oliver_order_emails_admin = 4050
+10:47:23 - change order status
+10:47:24 - reduce stock from default
+03:47:27 - update order trigger delay
+03:50:06 - === === ===
+03:50:06 - Start oliver_pos_update_customer trigger
+03:50:06 - Stop oliver_pos_update_customer trigger
+03:50:07 - New order trigger
+03:50:07 - order update difference time=1713412207
+03:50:07 - try post
+03:50:07 - Update order trigger4051
+03:50:07 - order update difference time=0
+03:50:07 - Update order trigger4051
+03:50:07 - order update difference time=0
+03:50:07 - Update order trigger4051
+03:50:07 - order update difference time=0
+03:50:07 - reduce stock from default
+03:50:07 - unhook_oliver_order_emails_admin = 4051
+03:50:07 - unhook_oliver_order_emails_admin = 4051
+10:50:09 - change order status
+03:50:12 - update order trigger delay
+03:54:01 - Update order trigger3948
+03:54:01 - order update difference time=1713412441
+03:54:01 - try post
+03:54:01 - change order status
+03:54:06 - update order trigger delay
+04:03:15 - Start update product trigger
+04:03:15 - End update product trigger
+04:39:34 - Update order trigger4045
+04:39:34 - order update difference time=1713415174
+04:39:34 - try post
+04:39:34 - unhook_oliver_order_emails_customer = 4045
+04:39:34 - unhook_oliver_order_emails_customer = 4045
+11:39:35 - change order status
+04:39:41 - update order trigger delay
+04:40:06 - Update order trigger4047
+04:40:06 - order update difference time=1713415206
+04:40:06 - try post
+04:40:06 - unhook_oliver_order_emails_customer = 4047
+04:40:06 - unhook_oliver_order_emails_customer = 4047
+11:40:07 - change order status
+04:41:04 - Update order trigger4046
+04:41:04 - order update difference time=1713415264
+04:41:04 - try post
+04:41:04 - unhook_oliver_order_emails_customer = 4046
+04:41:04 - unhook_oliver_order_emails_customer = 4046
+11:41:05 - change order status
+04:41:16 - Update order trigger4051
+04:41:16 - order update difference time=1713415276
+04:41:16 - try post
+04:41:16 - unhook_oliver_order_emails_customer = 4051
+04:41:16 - unhook_oliver_order_emails_customer = 4051
+11:41:17 - change order status
+04:41:21 - update order trigger delay
+05:09:45 - === === ===
+05:09:45 - Start oliver_pos_update_customer trigger
+05:09:45 - Stop oliver_pos_update_customer trigger
+05:09:45 - New order trigger
+05:09:45 - order update difference time=1713416985
+05:09:45 - try post
+05:09:45 - Update order trigger4052
+05:09:45 - order update difference time=0
+05:09:46 - Update order trigger4052
+05:09:46 - order update difference time=1
+05:09:46 - Update order trigger4052
+05:09:46 - order update difference time=1
+05:09:46 - Update order trigger4052
+05:09:46 - order update difference time=1
+05:09:46 - reduce stock from default
+05:09:46 - unhook_oliver_order_emails_admin = 4052
+05:09:46 - unhook_oliver_order_emails_admin = 4052
+12:09:48 - change order status
+12:09:49 - reduce stock from default
+05:09:51 - update order trigger delay
+05:48:10 - Update order trigger4050
+05:48:10 - order update difference time=1713419290
+05:48:10 - try post
+05:48:10 - === === ===
+05:48:10 - Start oliver_pos_update_customer trigger
+05:48:11 - Stop oliver_pos_update_customer trigger
+05:48:11 - unhook_oliver_order_emails_customer = 4050
+05:48:11 - unhook_oliver_order_emails_customer = 4050
+12:48:13 - change order status
+05:49:28 - Update order trigger4052
+05:49:28 - order update difference time=1713419368
+05:49:28 - try post
+05:49:28 - unhook_oliver_order_emails_customer = 4052
+05:49:28 - unhook_oliver_order_emails_customer = 4052
+12:49:29 - change order status
+05:49:34 - update order trigger delay
+05:53:33 - === === ===
+05:53:33 - Start oliver_pos_update_customer trigger
+05:53:34 - Stop oliver_pos_update_customer trigger
+05:53:34 - New order trigger
+05:53:34 - order update difference time=1713419614
+05:53:34 - try post
+05:53:34 - Update order trigger4053
+05:53:34 - order update difference time=0
+05:53:34 - Update order trigger4053
+05:53:34 - order update difference time=0
+05:53:34 - Update order trigger4053
+05:53:34 - order update difference time=0
+05:53:34 - reduce stock from default
+05:53:34 - unhook_oliver_order_emails_admin = 4053
+05:53:34 - unhook_oliver_order_emails_admin = 4053
+12:53:36 - change order status
+05:53:39 - update order trigger delay
+06:00:54 - Start create user trigger
+06:00:55 - Stop create user trigger
+06:02:45 - Start update product trigger
+06:02:45 - End update product trigger
+06:02:55 - Start create product trigger
+06:02:55 - End create product trigger
+06:02:55 - Start update product trigger
+06:02:55 - End update product trigger
+06:02:56 - Start update product trigger
+06:02:56 - End update product trigger
+06:02:56 - Start update product trigger
+06:02:56 - End update product trigger
+06:03:56 - Start update product trigger
+06:03:56 - End update product trigger
+06:04:16 - Start update product trigger
+06:04:16 - End update product trigger
+06:04:17 - Start update product trigger
+06:04:17 - End update product trigger
+06:04:17 - Start update product trigger
+06:04:17 - End update product trigger
+07:58:47 - === === ===
+07:58:47 - Start oliver_pos_update_customer trigger
+07:58:48 - Stop oliver_pos_update_customer trigger
+07:58:48 - New order trigger
+07:58:48 - order update difference time=1713427128
+07:58:48 - try post
+07:58:48 - Update order trigger4058
+07:58:48 - order update difference time=0
+07:58:48 - Update order trigger4058
+07:58:48 - order update difference time=0
+07:58:48 - Update order trigger4058
+07:58:48 - order update difference time=0
+07:58:48 - reduce stock from default
+07:58:48 - unhook_oliver_order_emails_admin = 4058
+07:58:48 - unhook_oliver_order_emails_admin = 4058
+14:58:50 - change order status
+07:58:54 - update order trigger delay
+08:50:14 - === === ===
+08:50:14 - Start oliver_pos_update_customer trigger
+08:50:16 - Stop oliver_pos_update_customer trigger
+08:50:16 - New order trigger
+08:50:16 - order update difference time=1713430216
+08:50:16 - try post
+08:50:16 - Update order trigger4059
+08:50:16 - order update difference time=0
+08:50:16 - Update order trigger4059
+08:50:16 - order update difference time=0
+08:50:16 - Update order trigger4059
+08:50:16 - order update difference time=0
+08:50:16 - reduce stock from default
+08:50:16 - unhook_oliver_order_emails_admin = 4059
+08:50:16 - unhook_oliver_order_emails_admin = 4059
+15:50:19 - change order status
+15:50:21 - Update order trigger4059
+15:50:21 - order update difference time=-43195
+15:50:21 - reduce stock from default
+08:50:22 - update order trigger delay
+11:04:51 - Start List of Activate Plugins
+11:04:51 - a4-barcode-generator/barcode_generator.php
+11:04:51 - admin-menu-editor/menu-editor.php
+11:04:51 - bp-custom-order-status-for-woocommerce/main.php
+11:04:51 - chillpay-payment-gateway/chillpay-woocommerce.php
+11:04:51 - code-snippets/code-snippets.php
+11:04:51 - cost-of-goods-for-woocommerce/cost-of-goods-for-woocommerce.php
+11:04:51 - elementor-pro/elementor-pro.php
+11:04:51 - elementor/elementor.php
+11:04:51 - google-website-translator/google-website-translator.php
+11:04:51 - independent-analytics/iawp.php
+11:04:51 - login-as-user/login-as-user.php
+11:04:51 - mailjet-for-wordpress/wp-mailjet.php
+11:04:51 - manage-notification-emails/manage-notification-emails.php
+11:04:51 - miniorange-login-openid/miniorange_openid_sso_settings.php
+11:04:51 - oliver-pos/oliver-pos.php
+11:04:51 - registration-password/fs-registration-password.php
+11:04:51 - white-label-cms/wlcms-plugin.php
+11:04:51 - woo-cart-abandonment-recovery/woo-cart-abandonment-recovery.php
+11:04:51 - woocommerce-conditional-discount-rules-for-checkout-premium/woo-conditional-discount-rules-for-checkout.php
+11:04:51 - woocommerce-pdf-invoices-packing-slips/woocommerce-pdf-invoices-packingslips.php
+11:04:51 - woocommerce/woocommerce.php
+11:04:51 - wordpress-seo/wp-seo.php
+11:04:51 - wp-mail-smtp/wp_mail_smtp.php
+11:04:51 - wpforms-lite/wpforms.php
+11:04:51 - yith-woocommerce-wishlist/init.php
+11:04:51 - End List of Activate Plugins
+11:04:52 - trigger_update_version_number = https://app.oliverpos.com/api/WCBridge/ChangeBridgeVersion/?clientId=798e0429-d60a-455a-9919-cfb1d5802a0f&version=2.4.2.2
+13:16:20 - === === ===
+13:16:20 - Start oliver_pos_update_customer trigger
+13:16:22 - Stop oliver_pos_update_customer trigger
+13:16:22 - New order trigger
+13:16:22 - order update difference time=1713402982
+13:16:22 - try post
+13:16:22 - Update order trigger4060
+13:16:22 - order update difference time=0
+13:16:22 - Update order trigger4060
+13:16:22 - order update difference time=0
+13:16:23 - Update order trigger4060
+13:16:23 - order update difference time=1
+13:16:23 - reduce stock from default
+13:16:23 - unhook_oliver_order_emails_admin = 4060
+13:16:23 - unhook_oliver_order_emails_admin = 4060
+20:16:25 - change order status
+20:16:26 - reduce stock from default
+13:16:30 - update order trigger delay
+16:44:20 - Start create user trigger
+16:44:22 - Stop create user trigger

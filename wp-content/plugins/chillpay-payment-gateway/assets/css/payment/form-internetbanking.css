@@ -1,0 +1,53 @@
+.wc_payment_method #chillpay-form-internetbanking input[type="radio"] + label::before {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+#chillpay-form-internetbanking { }
+#chillpay-form-internetbanking li.item {
+	border-bottom: 1px solid #eee;
+	padding: 12px 0 12px;
+	position: relative;
+}
+
+#chillpay-form-internetbanking li > input {
+	position: absolute;
+	top: 26px;
+	left: 14px;
+}
+
+#chillpay-form-internetbanking li > label {
+	padding-left: 36px;
+	cursor: pointer;
+	position: relative;
+}
+
+#chillpay-form-internetbanking .chillpay-form-internetbanking-label-box {
+	display: inline-block;
+}
+
+#chillpay-form-internetbanking .chillpay-form-internetbanking-logo-box {
+	display: inline-block;
+	padding: 5px;
+	margin: 0 10px;
+	border-radius: 2px;
+	vertical-align: top;
+	margin-top: 4px;
+}
+
+#chillpay-form-internetbanking .chillpay-form-internetbanking-logo-box img {
+	width: 38px !important;
+ 	height: auto !important;
+ 	max-height: initial !important;
+}
+
+#chillpay-form-internetbanking .secondary-text {
+	color: #aaa;
+	font-size: 80%;
+}
+
+.hidden {
+	display: none;
+  }
+

@@ -7,10 +7,9 @@
 * Note: Define them all, don't skip one if other is already defined
 */
 
-define( 'WP_LOCAL_SERVER', file_exists( 'wp-config-local.php' ) );
-define( 'WP_STAGING_SERVER', file_exists( 'wp-config-staging.php' ) );
-
-define( 'WP_DEV_SERVER', file_exists( 'wp-config-dev.php' ) ); // not in use.
+define( 'WP_LOCAL_SERVER', file_exists( dirname(__FILE__) . '/'. 'wp-config-local.php' ) );
+define( 'WP_STAGING_SERVER', file_exists( dirname(__FILE__) . '/'. 'wp-config-staging.php' ) );
+define( 'WP_DEV_SERVER', file_exists( dirname(__FILE__) . '/'. 'wp-config-dev.php' ) ); // not in use.
 
 /**
 * Load DB credentials

@@ -120,32 +120,98 @@ class User_Suppluers_Visible {
         return get_user_meta( $user_id, 'visible_suppliers', true );
     }
 
-    function exclude_single_posts_home ( $query ) {
+    /**
+     * @todo the tax query is being added to all Queries and causing a lot of silent errors. 
+     */
+    function exclude_single_posts_home ( $wp_query ) {
 
         if ( is_admin() ) {
-            return;
+            return $wp_query;
         }
 
-        $current_user_id = get_current_user_id();
-        $terms = $this->get_user_hidden_terms( $current_user_id );
+        // $response = telegram_log( "Archive Page: " . chr(10) . json_code_block( $wp_query->get('s') ) );
+
+        /**
+         *  This now filters queries of type 'product' and  no_found_rows to get
+         *  product posts query.
+         * @todo check that this is correctly hidding the right products (EK).
+         */
+        if ( $wp_query->get('post_type') === 'product' 
+            && $wp_query->get('no_found_rows') === false || ! empty( $wp_query->get('product_cat') )
+            || ! empty( $wp_query->get('s') ) 
+        ) {
+            
+            $current_user_id = get_current_user_id();
+            
+            if ($current_user_id) {
+
+                $terms = $this->get_user_hidden_terms( $current_user_id );
+                $tax_query = array(
+                    array(
+                        "taxonomy" => "suppliers",
+                        "field" => "slug",
+                        "terms" => $terms,
+                        "operator" => "NOT IN",
+                    ), 
+                    'relation' => 'AND',
+                );
+            }
+
+            $wp_query->tax_query->queries[] = $tax_query; 
+            $wp_query->query_vars['tax_query'] = $wp_query->tax_query->queries;
+
+            $response = telegram_log( "Filtered Query for hidden suppliers: " . chr(10) . json_code_block( $wp_query->tax_query ) );
+            
+        }
+    
+            // $current_user_id = get_current_user_id();
+
+            // if ($current_user_id) {
+            //     $terms = $this->get_user_hidden_terms( $current_user_id );
+            //     $add_to_tax_query = array(
+            //         array(
+            //             "taxonomy" => "suppliers",
+            //             "field" => "slug",
+            //             "terms" => $terms,
+            //             "operator" => "NOT IN",
+            //         ), 
+            //         'relation' => 'AND',
+            //     );
         
-        $add_to_tax_query = array(
-            array(
-                "taxonomy" => "suppliers",
-                "field" => "slug",
-                "terms" => $terms,
-                "operator" => "NOT IN",
-            ), 
-            'relation' => 'AND',
-        );
+            //     if( $wp_query->is_main_query() ) {
+            //         $wp_query->set( 'tax_query', $add_to_tax_query );
+            //     } else {
+            //         $wp_query->query_vars['tax_query'][] = $add_to_tax_query;
+            //         $wp_query->query['tax_query'][] = $add_to_tax_query;
+            //     }
+            // }
 
-        if( $query->is_main_query() ) {
-            $query->set( 'tax_query', $add_to_tax_query );
-        } else {
-            $query->query_vars['tax_query'][] = $add_to_tax_query;
-            $query->query['tax_query'][] = $add_to_tax_query;
-        }
+        return $wp_query;
+        
+        // ! taxonomy_exists('suppliers')
+        // if(  v || isset( $wp_query->query['fields'] ) && $wp_query->query['fields'] === 'ids' ) {
+        //     return $wp_query;
+        // }
+        // if( isset( $wp_query->query['tax_query'] ) ) {
+        //     return $wp_query;
+        // }
+        // if ( is_admin() || ! taxonomy_exists('suppliers') || $wp_query->query['post_type'] !== 'product' ) {
+        //     return $wp_query;
+        // }
 
-        return $query;
+        // die( var_dump( $wp_query->query ) );
+        //  && $wp_query->query['fields'] === 'ids'
     }
+}
+
+function code_block ( $code ) {
+    return chr(96).chr(96).chr(96).'json'.chr(10).
+    json_encode($code )
+    .chr(10).chr(96).chr(96).chr(96);
+}
+
+function pretty_print_dump ($variable) {
+    ?> <pre> <?php
+        var_dump( $variable );
+    ?> </pre> <?php
 }
